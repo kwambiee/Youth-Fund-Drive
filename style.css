@@ -1,0 +1,53 @@
+body {
+  background: url(./images/mobile-bg.png);
+}
+.hamburger {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background: none;
+  appearance: none;
+  outline: none;
+  border: none;
+}
+.hamburger .bar,
+.hamburger:after,
+.hamburger:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: black;
+  margin: 8px 0;
+  transition: 0.2s;
+}
+.hamburger.is-active:before {
+  transform: rotate(-45deg) translate(-8px, 7px);
+}
+.hamburger.is-active::after {
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+.hamburger.is-active .bar {
+  opacity: 0;
+}
+.mobile-nav {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: chocolate;
+  width: 400px;
+  height: 300px;
+  top: 15%;
+  left: 50%;
+  margin-left: -200px;
+  transition: 0.4s;
+}
+.mobile-nav a {
+  padding: 1rem;
+}
+.mobile-nav.is-active {
+  left: -100%;
+}
