@@ -1,0 +1,45 @@
+.speakers {
+  margin: 1rem 1rem;
+}
+.speaker-img img {
+  height: 70%;
+  width: 70%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.speaker-img img:first-of-type {
+  position: relative;
+  top: 25px;
+  left: 25px;
+}
+.speaker-img img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.speakers {
+  display: flex;
+}
+.speaker-img {
+  flex: 2;
+}
+.speaker-details {
+  flex: 3;
+}
+.speaker-name h2 {
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.role p {
+  font-style: italic;
+  color: #ec5242;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+.about p {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+}
