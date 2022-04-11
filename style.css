@@ -1,5 +1,9 @@
+@import url("http://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,900&display=swap");
 body {
   background: url(./images/mobile-bg.png);
+
+  background-size: cover;
 }
 .hamburger {
   position: relative;
@@ -41,13 +45,53 @@ body {
   width: 400px;
   height: 300px;
   top: 15%;
-  left: 50%;
+  left: -100%;
   margin-left: -200px;
   transition: 0.4s;
+  z-index: 98;
 }
 .mobile-nav a {
   padding: 1rem;
 }
 .mobile-nav.is-active {
-  left: -100%;
+  left: 50%;
+}
+.subtitle {
+  color: #ec5242;
+  padding-top: 3rem;
+}
+.subtitle h2 {
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  font-size: 35px;
+  margin: 5px 0;
+}
+.title {
+  color: rgba(236, 82, 66);
+}
+.title h1 {
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+  font-size: 33px;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+      rgba(255, 38, 0, 0.76),
+      rgba(255, 51, 0, 0.575)
+    ),
+    url(./images/it.jpg);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.content {
+}
+.content p {
+  font-family: "COCOGOOSE", sans-serif;
+  color: #272a31;
+  background: #d3d3d3;
+  border: 2px solid white;
+  width: 95%;
+  font-size: 16px;
+  word-spacing: 2px;
+  font-weight: 400;
 }
