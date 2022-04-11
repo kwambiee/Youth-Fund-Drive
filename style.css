@@ -44,7 +44,7 @@
   align-items: center;
   background-color: chocolate;
   width: 400px;
-  height: 300px;
+  height: 400px;
   top: 15%;
   left: -100%;
   margin-left: -200px;
@@ -52,7 +52,13 @@
   z-index: 98;
 }
 .mobile-nav a {
-  padding: 1rem;
+  padding: 1.2rem;
+  font-family: "COCOGOOSE", sans-serif;
+  color: #d3d3d3;
+  text-decoration: none;
+}
+.mobile-nav a:hover {
+  background-color: #99311b;
 }
 .mobile-nav.is-active {
   left: 50%;
