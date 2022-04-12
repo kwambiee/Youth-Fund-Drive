@@ -206,6 +206,9 @@
 }
 
 @media screen and (min-width: 769px) {
+  .header-section {
+    display: block;
+  }
   .navlink {
     display: flex;
     background-color: black;
@@ -294,7 +297,7 @@
   .features {
     flex-direction: column;
     text-align: center;
-    height: 250px;
+    height: 280px;
     padding: 0;
     margin: 1px;
     transition: transform 0.2s;
@@ -307,7 +310,7 @@
     height: 50px;
     width: 50px;
     vertical-align: middle;
-    margin-left: 35%;
+    margin-left: 5%;
   }
   .features h3 {
     margin-top: 1rem;
