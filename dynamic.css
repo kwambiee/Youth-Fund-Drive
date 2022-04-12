@@ -2,7 +2,7 @@
   display: block;
 }
 .speaker-title {
-  margin: 2rem 1rem;
+  padding: 2rem 1rem;
 }
 
 .speakers {
@@ -55,4 +55,10 @@
 .about p {
   font-family: "Lato", sans-serif;
   font-weight: 500;
+}
+@media screen and (min-width: 769px) {
+  .feature-speaker {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

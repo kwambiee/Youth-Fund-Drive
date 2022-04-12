@@ -1,5 +1,8 @@
 @import url("http://fonts.cdnfonts.com/css/cocogoose");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,900&display=swap");
+body {
+  overflow-x: hidden;
+}
 .header-section {
   display: none;
 }
@@ -146,7 +149,7 @@
   padding: 2rem 0;
 }
 .program-heading {
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 .program-heading h2 {
   text-align: center;
@@ -158,6 +161,9 @@
   border: 1px solid #ec5242;
   margin: 0 auto;
   width: 15%;
+}
+.feature-speaker {
+  background-color: rgb(247, 247, 247);
 }
 .features {
   display: flex;
@@ -204,6 +210,11 @@
   font-size: 1rem;
   border: none;
 }
+/* @media screen and (max-width: 768px) {
+  body {
+    overflow: hidden !important;
+  }
+} */
 
 @media screen and (min-width: 769px) {
   .header-section {
@@ -313,16 +324,18 @@
     margin-left: 5%;
   }
   .features h3 {
-    margin-top: 1rem;
-    margin-left: 0%;
+    padding-top: 0;
+    margin-top: 0;
+    height: 35px;
     font-size: 1rem;
     margin-bottom: 0;
     font-family: "COCOGOOSE", sans-serif;
     font-weight: 200;
   }
   .features p {
-    margin: 12px;
+    margin-top: 0;
   }
+
   .features .forum {
     margin-left: 5%;
   }
