@@ -5,7 +5,7 @@ window.onload = function () {
       role: " Principal Secretary, State department for Youth Affairs.",
       about:
         "Oversees implementation of youth empowerment policies and projects to ensure growth among the youths.",
-      image: ["images/avatar/Sunkuli.jpg", "images/avatar/Picture1.png"],
+      image: ["images/avatar/Sunkuli.jpg", "images/avatar/Picture2.png"],
     },
     {
       name: "Ray Ochieng",
@@ -49,7 +49,7 @@ window.onload = function () {
 
       eachSpeaker += `
         <div class="speakers">
-          <div class="speaker-img ${index}">
+          <div class="speaker-img">
               ${imageIcon}
           </div>
           <div class="speaker-details">
@@ -59,6 +59,7 @@ window.onload = function () {
               <div class="role">
                   <p>${speaker.role}</p>
               </div>
+              <div class="line"></div>
               <div class="about">
                   <p>${speaker.about}</p>
               </div>

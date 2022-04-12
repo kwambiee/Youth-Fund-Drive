@@ -1,3 +1,10 @@
+.feature-speaker {
+  display: block;
+}
+.speaker-title {
+  margin: 2rem 1rem;
+}
+
 .speakers {
   margin: 1rem 1rem;
 }
@@ -10,12 +17,13 @@
 }
 .speaker-img img:first-of-type {
   position: relative;
-  top: 25px;
-  left: 25px;
+  top: 0;
+  left: 10px;
+  z-index: 1;
 }
 .speaker-img img:nth-child(2) {
-  position: absolute;
-  top: 0;
+  position: relative;
+  top: 60px;
   left: 0;
 }
 .speakers {
@@ -38,6 +46,11 @@
   font-family: "Lato", sans-serif;
   font-weight: bold;
   font-size: 14px;
+}
+.speaker-details .line {
+  border: 1px solid #d3d3d3;
+  margin: 0;
+  width: 15%;
 }
 .about p {
   font-family: "Lato", sans-serif;
