@@ -8,33 +8,33 @@
 .speakers {
   margin: 1rem 1rem;
 }
-.speaker-img img {
-  height: 70%;
-  width: 70%;
+.speaker-img {
+  width: 200px;
   position: relative;
-  top: 0;
-  left: 0;
+  flex: 1;
+}
+.speaker-img img {
+  position: absolute;
 }
 .speaker-img img:first-of-type {
-  position: relative;
-  top: 0;
+  height: 100px;
+  width: 100px;
+  top: 10px;
   left: 10px;
   z-index: 1;
 }
 .speaker-img img:nth-child(2) {
-  position: relative;
-  top: 60px;
-  left: 0;
+  height: 100px;
+  width: 100px;
 }
 .speakers {
   display: flex;
 }
-.speaker-img {
+.speaker-details {
+  margin: 0 2rem;
   flex: 2;
 }
-.speaker-details {
-  flex: 3;
-}
+
 .speaker-name h2 {
   font-family: "COCOGOOSE", sans-serif;
   font-weight: bold;
