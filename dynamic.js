@@ -41,6 +41,7 @@ window.onload = function () {
   const menu_btn = document.querySelector(".hamburger");
   const menu_btn2 = document.querySelector(".hm2");
   const mobile_menu = document.querySelector(".mobile-nav");
+  const body = document.querySelector("body");
 
   function addSpeakers() {
     let eachSpeaker = "";
@@ -82,37 +83,4 @@ window.onload = function () {
     menu_btn.classList.toggle("is-active");
     mobile_menu.classList.toggle("is-active");
   });
-
-  //   document.querySelector('.lecturersCards-preview').innerHTML = `
-  //     <div class="card2">
-  //         <img class="lecturerPic" src="${lecturers[0].picURL}" alt="${lecturers[0].name}">
-  //         <div class="lecturer-info">
-  //         <h3 class="lecturer-name">${lecturers[0].name}</h3>
-  //         <h4 class="lecturer-position">${lecturers[0].position}</h4>
-  //         <div class="grey-line"></div>
-  //         <p class="lecturer-detail">${lecturers[0].details}</p>
-  //         </div>
-  //     </div>
-  //     <div class="card2">
-  //         <img class="lecturerPic" src="${lecturers[1].picURL}" alt="${lecturers[1].name}">
-  //         <div class="lecturer-info">
-  //         <h3 class="lecturer-name">${lecturers[1].name}</h3>
-  //         <h4 class="lecturer-position">${lecturers[1].position}</h4>
-  //         <div class="grey-line"></div>
-  //         <p class="lecturer-detail">${lecturers[1].details}</p>
-  //         </div>
-  //     </div>`;
-  // };
-  //   const btn = document.querySelector(".more-btn");
-  //   function showCards() {
-  //     if (desktopCards.style.display === "grid") {
-  //       desktopCards.style.display = "none";
-  //       mobileCards.style.display = "block";
-  //       btn.innerHTML = 'More <span> <i class="fa fa-angle-down"></i></span>';
-  //     } else {
-  //       mobileCards.style.display = "none";
-  //       desktopCards.style.display = "grid";
-  //       btn.innerHTML = 'Less <span> <i class="fa fa-angle-up"></i></span>';
-  //     }
-  //   }
 };
