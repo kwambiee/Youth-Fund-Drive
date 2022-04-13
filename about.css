@@ -64,47 +64,27 @@
   font-family: "Cocogoose", sans-serif;
   font-weight: bold;
 }
-.workshop-image1 {
-  position: relative;
+.work-image {
+  height: 300px;
+  width: 400px;
+  background-image: url("./images/workshop_2.jpg");
   margin: 1rem;
-  text-align: center;
-  color: white;
 }
-.workshop-image1 img {
-  width: 100%;
-}
-.workshop-image1 h2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100%;
+.workshops {
+  display: flex;
   height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(255, 38, 0, 0.76);
-  transform: translate(-50%, -50%);
-  text-align: center;
+  color: white;
 }
 
-.workshop-image2 {
-  position: relative;
+.work-image2 {
+  height: 300px;
+  width: 400px;
+  background-image: url(./images/workshop_1.jpg);
   margin: 1rem;
-  text-align: center;
-  color: white;
-}
-.workshop-image2 img {
-  width: 100%;
-}
-.layer {
-  background-color: rgba(255, 38, 0, 0.76);
-}
-.workshop-image2 h2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 38, 0, 0.76);
-  transform: translate(-50%, -50%);
-  text-align: center;
 }
 .mobile-partner {
   background-color: #272a31;
@@ -121,6 +101,20 @@
   width: 200px;
   height: 150px;
   margin: 5px;
+}
+.desktop-logos {
+  display: flex;
+  justify-content: space-evenly;
+}
+.desktop-logos a {
+  color: #d3d3d3;
+  font-family: "Cocogoose", sans-serif;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.desktop-logos img {
+  display: none;
 }
 .mobile-license {
   margin: 1rem;
@@ -177,7 +171,7 @@
   .logo-p p {
     margin: 2rem 0;
   }
-  .workshop {
+  .desk-workshop {
     display: flex;
   }
   .mobile-partner {
@@ -185,6 +179,15 @@
   }
   .mobile-license {
     background-color: #272a31;
-    height: 30%;
+    padding: 5%;
+    margin: 0;
+  }
+  .mobile-license img {
+    height: 100px;
+    width: 100px;
+  }
+  .mobile-license p {
+    font-size: 1rem;
+    color: white;
   }
 }
