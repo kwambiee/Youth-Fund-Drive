@@ -94,6 +94,11 @@
 .mobile-partner h2 {
   color: white;
 }
+.logo-section .line {
+  border: 1px solid #ec5242;
+  margin: 1rem auto;
+  width: 5%;
+}
 .partner-list {
   margin: 1rem;
 }
@@ -173,6 +178,12 @@
   }
   .desk-workshop {
     display: flex;
+  }
+  .work-image {
+    flex: 1;
+  }
+  .work-image2 {
+    flex: 1;
   }
   .mobile-partner {
     display: none;

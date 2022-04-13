@@ -76,6 +76,19 @@ body {
   color: #ec5242;
   padding-top: 3rem;
   margin-left: 12px;
+  position: relative;
+  animation: mymove 3s;
+  animation-iteration-count: 3;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-in-out;
+}
+@keyframes mymove {
+  from {
+    top: -100px;
+  }
+  to {
+    top: 30px;
+  }
 }
 .subtitle h2 {
   font-weight: 400;
@@ -83,6 +96,7 @@ body {
   font-size: 35px;
   margin: 5px 0;
 }
+
 .title {
   color: rgba(236, 82, 66);
   margin-left: 12px;
@@ -213,13 +227,33 @@ body {
   font-size: 1rem;
   border: none;
 }
-.desktop-partner {
-  display: none;
-}
 .desktop-license {
   display: none;
 }
-/* about css */
+.desktop-partner {
+  background-color: #272a31;
+  height: 10%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.desktop-partner h2 {
+  color: white;
+}
+.desktop-logos {
+  display: block;
+  background-color: #272a31;
+  text-decoration: none;
+  font-family: "COCOGOOSE", sans-serif;
+}
+.desktop-logos a {
+  color: white;
+  text-decoration: none;
+  padding: 0.8rem;
+}
+.desktop-logos img {
+  height: 60px;
+  width: 60px;
+}
 
 @media screen and (min-width: 769px) {
   .header-section {
