@@ -1,52 +1,51 @@
 window.onload = function () {
-  let speakers = [
+  const speakers = [
     {
-      name: "Charles Sunkuli",
-      role: " Principal Secretary, State department for Youth Affairs.",
+      name: 'Charles Sunkuli',
+      role: ' Principal Secretary, State department for Youth Affairs.',
       about:
-        "Oversees implementation of youth empowerment policies and projects to ensure growth among the youths.",
-      image: ["images/avatar/Sunkuli.jpg", "images/avatar/Picture2.png"],
+        'Oversees implementation of youth empowerment policies and projects to ensure growth among the youths.',
+      image: ['images/avatar/Sunkuli.jpg', 'images/avatar/Picture2.png'],
     },
     {
-      name: "Ray Ochieng",
-      role: "Secretary Youth Development",
+      name: 'Ray Ochieng',
+      role: 'Secretary Youth Development',
       about:
-        "Takes part in forming policies that affect youth welfare and security",
-      image: ["images/avatar/Ray-Ochieng.jpg", "images/avatar/Picture1.png"],
+        'Takes part in forming policies that affect youth welfare and security',
+      image: ['images/avatar/Ray-Ochieng.jpg', 'images/avatar/Picture1.png'],
     },
     {
-      name: "Bening Wiisichong",
-      role: "Secretary General of Pan Africa Youth Union",
+      name: 'Bening Wiisichong',
+      role: 'Secretary General of Pan Africa Youth Union',
       about:
-        "Takes part in development of strategic frameworks to map out youth development",
-      image: ["images/avatar/Wiisi.jpg", "images/avatar/Picture1.png"],
+        'Takes part in development of strategic frameworks to map out youth development',
+      image: ['images/avatar/Wiisi.jpg', 'images/avatar/Picture1.png'],
     },
     {
-      name: "Shirley Ayorkor",
-      role: "Minister for Foreign Affairs and Regional Integration, GhanaMFA",
+      name: 'Shirley Ayorkor',
+      role: 'Minister for Foreign Affairs and Regional Integration, GhanaMFA',
       about:
-        "Engages with many stakeholders to assert and reaffirm the importance of investing in the youths.",
-      image: ["images/avatar/Shirley.jpg", "images/avatar/Picture1.png"],
+        'Engages with many stakeholders to assert and reaffirm the importance of investing in the youths.',
+      image: ['images/avatar/Shirley.jpg', 'images/avatar/Picture1.png'],
     },
     {
-      name: "Mr Joe Mucheru",
-      role: "Cabinet Secretary, Ministry of ICT, Innovation and Youth Affairs",
+      name: 'Mr Joe Mucheru',
+      role: 'Cabinet Secretary, Ministry of ICT, Innovation and Youth Affairs',
       about:
-        "Leading  strong government presence to create employment opportunities for the youth in digital platforms",
-      image: ["images/avatar/Joe.jpg", "images/avatar/Picture1.png"],
+        'Leading  strong government presence to create employment opportunities for the youth in digital platforms',
+      image: ['images/avatar/Joe.jpg', 'images/avatar/Picture1.png'],
     },
   ];
 
-  const featureSpeaker = document.querySelector(".feature-speaker");
-  const menu_btn = document.querySelector(".hamburger");
-  const menu_btn2 = document.querySelector(".hm2");
-  const mobile_menu = document.querySelector(".mobile-nav");
-  const body = document.querySelector("body");
+  const featureSpeaker = document.querySelector('.feature-speaker');
+  const menuBtn = document.querySelector('.hamburger');
+  const menuBtn2 = document.querySelector('.hm2');
+  const mobileMenu = document.querySelector('.mobile-nav');
 
   function addSpeakers() {
-    let eachSpeaker = "";
-    speakers.forEach((speaker, index) => {
-      let imageIcon = "";
+    let eachSpeaker = '';
+    speakers.forEach((speaker) => {
+      let imageIcon = '';
       speaker.image.forEach((imageIcn) => {
         imageIcon += `<img src="${imageIcn}"/>`;
       });
@@ -74,13 +73,13 @@ window.onload = function () {
     featureSpeaker.innerHTML = eachSpeaker;
   }
   addSpeakers();
-  menu_btn.addEventListener("click", (e) => {
-    menu_btn.classList.toggle("is-active");
-    mobile_menu.classList.toggle("is-active");
+  menuBtn.addEventListener('click', () => {
+    menuBtn.classList.toggle('is-active');
+    mobileMenu.classList.toggle('is-active');
   });
 
-  menu_btn2.addEventListener("click", (e) => {
-    menu_btn.classList.toggle("is-active");
-    mobile_menu.classList.toggle("is-active");
+  menuBtn2.addEventListener('click', () => {
+    menuBtn.classList.toggle('is-active');
+    mobileMenu.classList.toggle('is-active');
   });
 };

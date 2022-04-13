@@ -3,23 +3,27 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .about-title {
   font-family: "Cocogoose", sans-serif;
   color: #ec5242;
   font-size: 33px;
   text-align: center;
-  margin-top: 1rem 10px;
+  margin-top: 10px;
   padding-top: 4rem;
 }
+
 .about-p p {
   margin: 1rem;
   padding: 1rem 2rem;
   border: 2px solid #d3d3d3;
   background-color: white;
 }
+
 .Text-about {
   padding-bottom: 2rem;
 }
+
 .Text-about p {
   text-align: center;
   width: 70%;
@@ -27,6 +31,7 @@
   font-family: "Cocogoose", sans-serif;
   margin-bottom: 0;
 }
+
 .Text-about a {
   color: #ec5242;
   font-family: "Lato", sans-serif;
@@ -34,22 +39,27 @@
   margin-left: 6rem;
   font-size: 1rem;
 }
+
 .about-divider {
   border: 1px solid #d3d3d3;
 }
+
 .logo-section {
   border: 1px solid #d3d3d3;
   margin: 1rem;
 }
+
 .logo-section h2 {
   padding: 1rem;
   text-align: center;
   color: #ec5242;
   font-family: "Cocogoose", sans-serif;
 }
+
 .logo-section p {
   display: none;
 }
+
 .logo-section img {
   height: 70%;
   width: 70%;
@@ -58,18 +68,21 @@
   margin-right: auto;
   padding-bottom: 1rem;
 }
+
 .logo-p p {
   text-align: center;
   color: #272a31;
   font-family: "Cocogoose", sans-serif;
   font-weight: bold;
 }
+
 .work-image {
   height: 300px;
   width: 400px;
   background-image: url("./images/workshop_2.jpg");
   margin: 1rem;
 }
+
 .workshops {
   display: flex;
   height: 100%;
@@ -86,31 +99,38 @@
   background-image: url(./images/workshop_1.jpg);
   margin: 1rem;
 }
+
 .mobile-partner {
   background-color: #272a31;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+
 .mobile-partner h2 {
   color: white;
 }
+
 .logo-section .line {
   border: 1px solid #ec5242;
   margin: 1rem auto;
   width: 5%;
 }
+
 .partner-list {
   margin: 1rem;
 }
+
 .partner-list img {
   width: 200px;
   height: 150px;
   margin: 5px;
 }
+
 .desktop-logos {
   display: flex;
   justify-content: space-evenly;
 }
+
 .desktop-logos a {
   color: #d3d3d3;
   font-family: "Cocogoose", sans-serif;
@@ -118,85 +138,105 @@
   font-size: 1rem;
   cursor: pointer;
 }
+
 .desktop-logos img {
   display: none;
 }
+
 .mobile-license {
   margin: 1rem;
   display: flex;
   justify-content: space-between;
 }
+
 .mobile-license img {
   width: 60px;
   height: 60px;
 }
+
 .mobile-license p {
   font-size: 12px;
   width: 60%;
   font-weight: bold;
 }
+
 .mobile-license .licence {
   color: gray;
 }
+
 @media screen and (min-width: 769px) {
   .about-title {
     font-size: 3rem;
   }
+
   .about-p p {
     width: 80%;
     margin: 1rem auto;
   }
+
   .Text-about p {
     width: 50%;
-    margin-left: auto;
     margin: auto;
   }
+
   .Text-about a {
     font-size: 1rem;
     margin-left: 40%;
   }
+
   .logo-section {
     padding: 1rem;
   }
+
   .logo-section h2 {
     color: #272a31;
   }
+
   .logo-section p {
     display: block;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
   }
+
   .logo-section img {
     height: 190px;
     width: 200px;
     padding: 2rem;
     border: 1px solid #d3d3d3;
   }
+
   .logo-p p {
     margin: 2rem 0;
   }
+
   .desk-workshop {
     display: flex;
   }
+
   .work-image {
     flex: 1;
   }
+
   .work-image2 {
     flex: 1;
   }
+
   .mobile-partner {
     display: none;
   }
+
   .mobile-license {
     background-color: #272a31;
     padding: 5%;
     margin: 0;
   }
+
   .mobile-license img {
     height: 100px;
     width: 100px;
   }
+
   .mobile-license p {
     font-size: 1rem;
     color: white;
