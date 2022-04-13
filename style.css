@@ -132,8 +132,7 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 33px;
   text-transform: uppercase;
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       rgba(255, 38, 0, 0.76),
       rgba(255, 51, 0, 0.575)
     ),
@@ -282,7 +281,6 @@ body {
 .desktop-partner {
   background-color: #272a31;
   height: 10%;
-  padding-bottom: 1rem;
   padding-top: 1rem;
 }
 
@@ -295,7 +293,12 @@ body {
   background-color: #272a31;
   text-decoration: none;
   font-family: "COCOGOOSE", sans-serif;
-  padding-left: 12px;
+  padding-left: 15%;
+  padding-bottom: 3rem;
+}
+.desktop-logos a {
+  color: #d3d3d3;
+  font-size: 1.2rem;
 }
 
 .desktop-logos img {
@@ -475,7 +478,6 @@ body {
     display: block;
     background-color: #272a31;
     padding-top: 2rem;
-    padding-bottom: 2rem;
   }
 
   .desktop-partner h2 {
@@ -498,6 +500,8 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 2rem 1rem;
+    background-color: white;
+    align-items: center;
   }
 
   .desktop-license img {
