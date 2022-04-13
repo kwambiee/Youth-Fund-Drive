@@ -1,6 +1,3 @@
-@import url("http://fonts.cdnfonts.com/css/cocogoose");
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,900&display=swap");
-
 .about {
   background: url("./images/about-bg.png");
   background-size: contain;
@@ -49,6 +46,9 @@
   text-align: center;
   color: #ec5242;
   font-family: "Cocogoose", sans-serif;
+}
+.logo-section p {
+  display: none;
 }
 .logo-section img {
   height: 70%;
@@ -138,4 +138,53 @@
 }
 .mobile-license .licence {
   color: gray;
+}
+@media screen and (min-width: 769px) {
+  .about-title {
+    font-size: 3rem;
+  }
+  .about-p p {
+    width: 80%;
+    margin: 1rem auto;
+  }
+  .Text-about p {
+    width: 50%;
+    margin-left: auto;
+    margin: auto;
+  }
+  .Text-about a {
+    font-size: 1rem;
+    margin-left: 40%;
+  }
+  .logo-section {
+    padding: 1rem;
+  }
+  .logo-section h2 {
+    color: #272a31;
+  }
+  .logo-section p {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo-section img {
+    height: 190px;
+    width: 200px;
+    padding: 2rem;
+    border: 1px solid #d3d3d3;
+  }
+  .logo-p p {
+    margin: 2rem 0;
+  }
+  .workshop {
+    display: flex;
+  }
+  .mobile-partner {
+    display: none;
+  }
+  .mobile-license {
+    background-color: #272a31;
+    height: 30%;
+  }
 }
