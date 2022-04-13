@@ -1,8 +1,11 @@
 # Youth Fund Drive Page
+
 This project aims at notifying the youths and various sponsors on the upcoming fund drive. The conference aims to raise money and also brainstorm ways to advance the youths educationally, mentally and financially. Users can always be notified on such events.
+
 <hr/>
 
 ## Contents
+
 - Development
 - Screen Shots
 - Visit Website
@@ -23,18 +26,22 @@ Images were installed to bring out the aim of the project.
 
 <hr/>
 
-## Screen Shots 
+## Screen Shots
 
 ![Screen Shot](./images/Screenshot1.png)
+
 <hr/>
 
 ![Screen Shot](./images/Screenshot2.png)
+
 <hr/>
 
 ## Visit Website
+
 [GitHub pages](https://kwambiee.github.io/Youth-Fund-Drive/)
 
-## Built With 
+## Built With
+
 - HTML
 - CSS
 - Git & Gitflow
@@ -43,16 +50,17 @@ Images were installed to bring out the aim of the project.
 
 ## Live Demo
 
+[Live Demo link](https://www.loom.com/share/d3912d12f5b34ea28ee349eb21992d8d)
+
 ## Contributors
+
 Original design by [Cindy Shin](https://www.behance.net/adagio07)
 
 :bust_in_silhouette: **Author**
 
-   ## Joy Kwamboka
+## Joy Kwamboka
 
 - Github: [@kwambiee](https://github.com/kwambiee)
 - Twitter: [@kwambiee](https://twitter.com/kwambiee)
 - Linkedin: [Joy Kwamboka](https://www.linkedin.com/in/joy-kwamboka)
 - E-mail: kwambokaj2.jk@gmail.com
-
-
